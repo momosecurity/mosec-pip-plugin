@@ -1,0 +1,40 @@
+Changelog
+
+=========
+
+Version 1.1.0
+
+- feature  remove Package class and subclass
+- feature  add LogHelper
+- feature  add ReqDist
+
+Version 1.0.6
+
+- feature  default throw Exception when found vulnerable && parameter support
+
+Version 1.0.5
+
+- feature  change color log
+
+Version 1.0.4
+
+- feature  color log
+
+Version 1.0.3
+
+- feature  replace urllib3 with urllib
+
+Version 1.0.2
+
+- bugfix   Requirement object has provenance property
+- feature  replace requests dependency with urllib3
+
+Version 1.0.1
+
+- bugfix   support requierments.txt with local dir dependency
+- upgrade  requirements upgrade to 0.2.0
+- feature  add exit code
+
+Version 1.0.0
+
+- Init
