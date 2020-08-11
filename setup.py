@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mosec-pip-plugin",
-    version="1.1.0",
+    version="1.1.1",
     author="retanoj",
     author_email="mmsrc@immomo.com",
     description="用于检测python项目的第三方依赖组件是否存在安全漏洞",

@@ -263,10 +263,6 @@ def main():
                         action="store",
                         default="High",
                         help="威胁等级 [High|Medium|Low]. default: High")
-    parser.add_argument("--no-except",
-                        action="store_true",
-                        default=False,
-                        help="发现漏洞不抛出异常")
     parser.add_argument("--debug",
                         action="store_true",
                         default=False)
@@ -275,6 +271,5 @@ def main():
     if args.debug:
         log.set_log_level(logging.DEBUG)
 
-    status = run(args)
-    if status == 1 and not args.no_except:
-        raise BaseException("Found Vulnerable!")
+    return run(args)
+
